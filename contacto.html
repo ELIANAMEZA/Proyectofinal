@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto</title>
+	<!-- bt scss-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="./bootstrap-scss"> -->
+	<!-- el Css-->
+	<link rel="stylesheet" href="./css/main.css">
+	<meta name="description" content="En esta sección se encuentra el formulario de contacto, para que puedan hacernos llegar sus comentarios">
+	<meta name="author" content="Eliana Meza">
+</head>
+    
+<body>
+	<header>
+		<!-- comienza la navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <div class="container-fluid">
+			    <a class="navbar-brand bg-light" href="index.html">
+			    	<img src="Img/logo.png" alt="logo ilay">
+			    </a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+			        <li class="nav-item">
+			          <a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>
+			        </li> 
+			        <li class="nav-item">
+			          <a class="nav-link" href="productos.html">
+			            Productos
+			          </a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="promociones.html">Promociones</a>
+			        </li>		      
+			        <li class="nav-item">
+			          <a class="nav-link" href="contacto.html">Contacto</a>
+			        </li>
+			      </ul>
+			    </div>
+			 </div>
+		</nav>
+		<!-- finaliza la navbar -->
+	</header>
+
+	<main class="mainNudo">
+		<h1 class="text-center">Contacto</h1>
+		<div class="contact_form">
+		    <div class="formulario">     
+		        <h3>Nos gustaría conocerte un poquito más! Nos querés dejar tu comentario? </h3>
+		          <form action="submeter-formulario.php" method="post">       
+		                <p class="contacto">
+		                  <label for="nombre" class="colocar_nombre">Nombre
+		                  </label>
+		                  <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escriba su nombre">
+		                </p>
+		                <p class="contacto">
+		                  <label for="email" class="colocar_email">Email
+		                  </label>
+		                  <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="escribe@mail.com">
+		                </p>
+		                <p class="contacto">
+		                  <label for="telefone" class="colocar_telefono">Teléfono
+		                  </label>
+		                  <input type="tel" name="introducir_telefono" id="telefono" placeholder="11 4444 4444">
+		                </p>    
+		                <p class="contacto">
+		                  <label for="mensaje" class="colocar_mensaje">Dejanos tu mensaje
+		                  </label>                     
+		                  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="escribí tu mensaje...">
+		                   </textarea>
+		                </p>                    
+		                <button type="submit" name="enviar_formulario" id="enviar">
+		                <p class="contacto">Enviar</p>
+		            	</button>        
+		            	<button type="submit" name="cancelar_formulario" id="enviar">
+		                <p class="contacto">Cancelar</p>
+		            	</button>
+		          </form>
+		    </div>  
+		  </div>
+	</main>	
+	<div class="container-fluid bg-dark">
+		<footer class="bg-dark d-flex flex-column">
+			<p><img src="Img/facebook.png" alt="facebook"> facebook/ilaybags</p>
+			<p><img src="Img/instagram.png" alt="instagram"> instagram/ilaybags</p>
+		</footer>
+	</div>		
+
+	
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
