@@ -8845,6 +8845,20 @@ body {
   justify-content: space-between;
 }
 
+.imagenNosotros1 {
+  width: 70vh;
+  height: 40vh;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.imagenNosotros2 {
+  width: 70vh;
+  height: 40vh;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
 .cajaNosotrosLeft {
   justify-content: left;
   text-align: left;

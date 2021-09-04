@@ -28,18 +28,18 @@ body{
 .justifyContent{
 	justify-content: space-between;
 }
-// .imagenNosotros1{
-// 	width: 80vh;
-// 	height: 40vh;
-// 	margin-top: 20px;
-// 	margin-left: 20px;
-// }
-// .imagenNosotros2{
-// 	width: 110vh;
-// 	height: 50vh;
-// 	margin-bottom: 20px;
-// 	margin-right: 20px;
-// }
+.imagenNosotros1{
+	width: 70vh;
+	height: 40vh;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.imagenNosotros2{
+	width: 70vh;
+	height: 40vh;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
 
 @mixin caja {
 	padding: 20px;
