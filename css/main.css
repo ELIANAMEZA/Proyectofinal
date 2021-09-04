@@ -8829,7 +8829,7 @@ body {
   margin-top: 20px;
   margin-right: 10px;
   width: 26%;
-  height: 40vh;
+  height: 20vh;
   padding: 10px;
   border: solid 2px black;
   float: right;
@@ -8843,20 +8843,6 @@ body {
 
 .justifyContent {
   justify-content: space-between;
-}
-
-.imagenNosotros1 {
-  width: 80vh;
-  height: 40vh;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
-.imagenNosotros2 {
-  width: 110vh;
-  height: 50vh;
-  margin-bottom: 20px;
-  margin-right: 20px;
 }
 
 .cajaNosotrosLeft {
@@ -9027,30 +9013,6 @@ p .contacto {
   border: 1px solid black;
 }
 
-@media only screen and (min-width: 320) {
-  .borde {
-    height: 8vh;
-  }
-
-  .cajaNosotrosLeft {
-    height: 4vh;
-  }
-
-  .imagenNosotros1 {
-    height: 20vh;
-    width: 50%;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .borde {
-    height: 34vh;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .borde {
-    height: 20vh;
-  }
-}
 footer p {
   margin-top: 8px;
   margin-bottom: 4px;
