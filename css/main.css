@@ -8818,20 +8818,48 @@ body {
   background-image: linear-gradient(90deg, rgba(235, 232, 232, 0.9) 80%, #bfbdbd 100%, #969695 100%);
 }
 
+h1, .h1 {
+  font-size: 1rem;
+}
+
+p {
+  /* font-size: 1rem; */
+  font-weight: 200 !important;
+}
+
+@media only screen and (min-width: 768px) {
+  h1, .h1 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-weight: 750;
+  }
+}
+@media only screen and (min-width: 992px) {
+  h1, .h1 {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  p {
+    font-weight: 550;
+    font-size: 1.5rem;
+  }
+}
 .mainNudo {
   background-image: url(../Img/nudo.jpg);
-  height: 130vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .borde {
-  margin-top: 20px;
-  margin-right: 10px;
-  width: 26%;
-  height: 20vh;
-  padding: 10px;
-  float: right;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+  text-shadow: 2px 2px 2px white;
 }
 
 .slide-in-left {
@@ -8883,108 +8911,6 @@ body {
 .promociones {
   margin-left: 20px;
   margin-bottom: 20px;
-}
-
-.header {
-  color: #000;
-  font-size: 27px;
-  padding: 10px;
-}
-
-.contact_form {
-  width: 460px;
-  height: auto;
-  margin: auto;
-  border-radius: 10px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  background-color: #fbfbfb;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-input {
-  width: 408px;
-  height: 40px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
-  margin-top: 4px;
-  padding-left: 10px;
-  background-color: #fbfbfb;
-  margin-bottom: 8px;
-}
-
-textarea {
-  width: 405px;
-  height: 150px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
-  margin-top: 4px;
-  padding-left: 10px;
-  background-color: #fbfbfb;
-  margin-bottom: 14px;
-  padding-top: 15px;
-}
-
-label {
-  display: block;
-  float: center;
-}
-
-button {
-  height: 30px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-bottom: 10px;
-  margin-top: 6px;
-  text-transform: uppercase;
-  background-color: black;
-  border-color: black;
-  border-style: solid;
-  border-radius: 10px;
-  width: 360px;
-  cursor: pointer;
-}
-
-button p {
-  color: white;
-  margin-top: 6px;
-}
-
-h3, .h3 {
-  font-size: 16px;
-  margin-top: 10px;
-  padding-bottom: 30px;
-  color: black;
-}
-
-p {
-  color: black;
-}
-p .contacto {
-  font-size: 12px;
-}
-
-::-webkit-input-placeholder {
-  color: black;
-}
-
-::-webkit-textarea-placeholder {
-  color: black;
-}
-
-.formulario input:focus {
-  outline: 0;
-  border: 1px solid #97d848;
-}
-
-.formulario textarea:focus {
-  outline: 0;
-  border: 1px solid black;
 }
 
 footer p {
