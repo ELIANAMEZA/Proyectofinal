@@ -18,17 +18,17 @@ p {
   }
 }
 
-.mainNudo{
-	background-image: url(../Img/nudo.jpg);
-	height: 100vh;
-	background-repeat: no-repeat;
-	background-size: cover;
-}	
-.borde{
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.titulo{
-  text-shadow: 2px 2px 2px white;
+main{
+  background-image: url(../Img/nudo.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+    h1{
+      text-shadow: 2px 2px 2px white;
+    }
+    blockquote{
+       background-color: rgba(0, 0, 0, 0.5);
+    }
 }
 
 .slide-in-left{
@@ -53,6 +53,7 @@ p {
     transform: translateX(0);
   }
 }
+
 .scale:hover{
 	transform: scale(1.2);
 	cursor: pointer;

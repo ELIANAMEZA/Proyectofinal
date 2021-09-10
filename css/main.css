@@ -8832,19 +8832,17 @@ p {
     font-weight: 550;
   }
 }
-.mainNudo {
+main {
   background-image: url(../Img/nudo.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.borde {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.titulo {
+main h1, main .h1 {
   text-shadow: 2px 2px 2px white;
+}
+main blockquote {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .slide-in-left {
