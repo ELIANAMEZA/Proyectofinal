@@ -8818,33 +8818,18 @@ body {
   background-image: linear-gradient(90deg, rgba(235, 232, 232, 0.9) 80%, #bfbdbd 100%, #969695 100%);
 }
 
-h1, .h1 {
-  font-size: 1rem;
-}
-
 p {
-  /* font-size: 1rem; */
   font-weight: 200 !important;
 }
 
 @media only screen and (min-width: 768px) {
-  h1, .h1 {
-    font-size: 1rem;
-  }
-
   p {
     font-weight: 750;
   }
 }
 @media only screen and (min-width: 992px) {
-  h1, .h1 {
-    font-weight: 700;
-    font-size: 2rem;
-  }
-
   p {
     font-weight: 550;
-    font-size: 1.5rem;
   }
 }
 .mainNudo {
@@ -8891,13 +8876,10 @@ p {
   cursor: pointer;
 }
 
-.lastCall {
-  margin-top: 10px;
-}
-
-.promociones {
-  margin-left: 20px;
-  margin-bottom: 20px;
+.mainContact {
+  background-image: url(../Img/nudo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer p {

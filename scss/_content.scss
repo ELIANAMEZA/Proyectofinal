@@ -1,35 +1,23 @@
 body{
 	background-image: linear-gradient(90deg, rgba(235,232,232,0.9) 80%, rgba(191,189,189,1) 100%, rgba(150,150,149,1) 100%);
 }
-h1 {
-  font-size: 1rem; 
-}
 
 p {
-  /* font-size: 1rem; */
   font-weight: 200 !important;
 }
 
 @media only screen and (min-width: 768px) {
-    h1 {
-      font-size: 1rem; 
-    }
     p {
       font-weight: 750; 
     }
 }
 
 @media only screen and (min-width: 992px) {
-  h1 {
-    font-weight: 700;
-    font-size: 2rem; 
-  }
   p {
     font-weight: 550;
-    font-size: 1.5rem; }
+  }
 }
 
-// index
 .mainNudo{
 	background-image: url(../Img/nudo.jpg);
 	height: 100vh;
@@ -42,7 +30,6 @@ p {
 .titulo{
   text-shadow: 2px 2px 2px white;
 }
-// nosotros 
 
 .slide-in-left{
 	animation: slide-in-left 1s ease-in-out both;
@@ -66,17 +53,14 @@ p {
     transform: translateX(0);
   }
 }
-
-// promociones
 .scale:hover{
 	transform: scale(1.2);
 	cursor: pointer;
 }
-.lastCall{
-	margin-top: 10px;
+.mainContact{
+  background-image: url(../Img/nudo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.promociones{
-	margin-left: 20px;
-	margin-bottom: 20px;
-}
+
 
